@@ -19,5 +19,5 @@ int main(void)
 			num += 39;
 		num++;
 	}
-	putcha('\n');
+	putchar('\n');
 }
