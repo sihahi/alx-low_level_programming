@@ -16,7 +16,7 @@ int _sqrt_recursion(int n)
 	}
 	if (square * square < n)
 	{
-		square = _sqrt_recursion(int (n - 1) / 2);
+		square = _sqrt_recursion((n - 1) / 2);
 		return (square);
 	}
 	else
