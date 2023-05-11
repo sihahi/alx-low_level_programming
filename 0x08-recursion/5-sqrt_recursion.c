@@ -10,9 +10,9 @@ int _sqrt_recursion(int n)
 {
 	int square = 1;
 
-	square ++;
 	if (square * square == n)
 	{
+		square = _sqrt_recursion(n/2);
 		return (square);
 	}
 	if (square * square < n)
