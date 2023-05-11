@@ -2,23 +2,35 @@
 
 /**
  * _sqrt_recursion - function that returns the natural square root of a number
+ * square - find squre root
  * @n: int
- * Return: value of square, -1 error
+ * @sqr: square root
+ * Return: value int, -1 error
  */
 
+int square(int n, int sqr)
 int _sqrt_recursion(int n)
 {
-	int square = 1;
+	return (square(n, 1));
+}
 
-	if (square * square == n)
+/**
+ * square - find squre root
+ * @n: int
+ * @sqr: square root
+ * Return: value int, -1 error
+ */
+
+int square(int n, int sqr)
+{
+
+	if (sqr * sqr == n)
 	{
-		square = _sqrt_recursion(n/2);
-		return (square);
+		return (sqr);
 	}
-	if (square * square < n)
+	else if (square * square < n)
 	{
-		square = _sqrt_recursion((n - 1) / 2);
-		return (square);
+		return (square(n, sqr + 1));
 	}
 	else
 	{
