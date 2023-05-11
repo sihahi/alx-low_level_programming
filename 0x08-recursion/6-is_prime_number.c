@@ -28,5 +28,5 @@ int prime(int n, int prm)
 	else if (n % prm == 0 || n <= 1)
 		return (0);
 	else
-		return (prime(n, prm + 1);
+		return (prime(n, prm + 1));
 }
