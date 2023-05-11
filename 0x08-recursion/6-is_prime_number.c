@@ -2,7 +2,8 @@
 #include <stdio.h>
 
 /**
- * is_prime_number - function that returns 1 if the input integer is a prime number
+ * is_prime_number - function that returns 1 if
+ * the input integer is a prime number
  * @n: int
  * @prm: int
  * Return: 0 or 1
