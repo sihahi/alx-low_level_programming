@@ -2,20 +2,22 @@
 
 /**
  * _sqrt_recursion - function that returns the natural square root of a number
- * @n: number to print
- * Return: value of square, -1 error
+ * @n: int
+ * @val: square root
+ * Return: value int, -1 error
  */
 
+int square(int n, int val)
 int _sqrt_recursion(int n)
 {
 	return (square(n, 1));
 }
 
-/**
+/***
  * square - find a square of number
- * @n: int to find square root
+ * @n: int
  * @val: square root
- * Return: value int
+ * Return: value int, -1 error
  */
 
 int square(int n, int val)
