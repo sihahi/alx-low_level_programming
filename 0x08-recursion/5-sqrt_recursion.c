@@ -3,13 +3,12 @@
 
 /**
  * _sqrt_recursion - function that returns the natural square root of a number
- * square - find squre root
  * @n: int
  * @sqr: square root
  * Return: value int, -1 error
  */
 
-int square(int n, int sqr)
+int square(int n, int sqr);
 int _sqrt_recursion(int n)
 {
 	return (square(n, 1));
