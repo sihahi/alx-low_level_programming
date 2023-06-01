@@ -3,7 +3,7 @@
 /**
  * _strlen - the length of string
  * @s: string
- * Return: length of string
+ * Return: int length of string
  */
 
 int _strlen(char *s)
@@ -20,7 +20,7 @@ int _strlen(char *s)
 /**
  * print_list - prints linked list
  * @h: pointer
- * Return: the number of nodes
+ * Return: int number of nodes
  */
 
 size_t print_list(const list_t *h)
