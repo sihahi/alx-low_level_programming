@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * add_nodeint_end - function that adds a new node at the beginning
+ * add_nodeint_end - function that adds a new node at the end
  * of a listint_t list
  * @head: pointer to first node
  * @n: value for new node
@@ -17,7 +17,7 @@ listint_t *add_nodeint_end(listint_t **head, const int n)
 		return (NULL);
 	new_node->next = NULL;
 	new_node->n = n;
-	if (*head)
+	if (!*head)
 		*head = new_node;
 	else
 	{
